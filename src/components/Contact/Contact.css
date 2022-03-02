@@ -1,10 +1,3 @@
-@keyframes animation{
-    from {-webkit-filter: drop-shadow(2px 2px 2px #ff8906);
-        filter: drop-shadow(2px 2px 5px #ff8906);}
-    to {-webkit-filter: drop-shadow(5px 10px 3px #ff8906);
-        filter: drop-shadow(5px 10px 20px #ff8906);}
-}
-
 .ContactImages img{
     height: 32px;
     width: auto;
