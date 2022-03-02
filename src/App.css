@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  background-color: #0f0e17;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-row {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px;
+}
+
+.App-row .one {
+  flex: 1 1 0%;
+  max-width: 300px;
+  padding-right: 50px;
+}
+
+.App-row .two {
+  max-width: 800px;
+  padding-left: 50px;
+  flex: 2 1 0%;
+}
+
+.vl {
+  border-left: 1px solid #ff8906;
+  height: 700px;
+}
+
+hr {
+  border: 1px solid #f25f4c;
+}

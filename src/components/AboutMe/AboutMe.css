@@ -1,0 +1,12 @@
+p {
+    max-width: 1000px;
+    font-size: 16px;
+    color: #c8c9d4;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: left;
+    font-weight: normal;
+}

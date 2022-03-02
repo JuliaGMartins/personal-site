@@ -1,0 +1,73 @@
+@keyframes type {
+    100%{
+        left: 100%;
+        margin: 0 -35 0 35px;
+    }
+}
+
+@keyframes slide {
+    to{
+        transform: translateX (0px);
+        opacity: 1;
+    }
+}
+
+.name {
+    max-width: 1000px;
+    font-size: 50px;
+    text-align: left;
+    margin-top: 30px;
+    animation: type 1.5s steps(10);
+    font-weight: bold;
+}
+
+.sub{
+    text-align: left;
+    margin-top: 35px;
+    font-size: 28px;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.circle-one {
+    height: 200px;
+    width: 200px;
+    background-color: #e53170;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -225px;
+    opacity: 0;
+    animation: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0;
+}
+
+.circle-two {
+    height: 200px;
+    width: 200px;
+    background-color: #f25f4c;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -225px;
+    opacity: 0;
+    animation: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 200px;
+    opacity: 0;
+    animation: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+  }
+
+.circles {
+    text-align: left;
+    padding-left: 50px;
+}

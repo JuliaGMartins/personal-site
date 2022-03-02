@@ -1,0 +1,33 @@
+@keyframes highlight{
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.4);
+        filter: drop-shadow(5px 5px 25px black);
+    }
+}
+
+h5 {
+    color: #ff8906;
+}
+
+.Icon {
+    width: auto;
+    height: 100px;
+}
+
+.Icon:hover {
+    animation: highlight;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
