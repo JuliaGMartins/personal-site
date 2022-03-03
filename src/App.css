@@ -18,7 +18,7 @@ body {
   color: #61dafb;
 }
 
-@media(min-width:300px) {
+@media(min-width:1200px) {
   .App-row {
     display: flex;
     flex-flow: row wrap;
@@ -28,22 +28,34 @@ body {
   }
   
   .App-row>.one {
-    flex: 1 1 0%;
     max-width: 300px;
     order: 1;
-    padding-right: 50px;
+    margin: 50px;
+    text-align: justify;
   }
 
   .App-row>.two {
     max-width: 300px;
-    order: 1;
-    padding-right: 50px;
+    order: 2;
   }
   
   .App-row>.three {
-    max-width: 800px;
-    order: 2;
+    max-width: 850px;
+    order: 3;
     flex: 2 1 0%;
+    margin: 50px;
+  }
+}
+
+/*display:none - causes vl to disappear when screen resolution < 1500px*/
+@media(max-width:1465px) {
+  .App-row>.two {
+    display: none;
+  }
+
+/*causes the boxes to generate margin when in small resolution*/
+  .App-row>.one, .App-row>.three {
+    margin: 25px;
   }
 }
 

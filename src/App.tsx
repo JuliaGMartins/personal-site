@@ -14,7 +14,6 @@ function App() {
           <div className="one">
             <Router>
               <Introduction/>
-              <br/>
               <hr/>
               <Contact/>
             </Router>
