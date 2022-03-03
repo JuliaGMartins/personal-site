@@ -8,7 +8,7 @@ import './Contact.css'
 function Contact() {
   return (
     <div>
-        <h1 className="sub">
+        <h1>
             Contato
         </h1>
         <div className="ContactImages">

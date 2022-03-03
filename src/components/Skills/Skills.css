@@ -14,7 +14,7 @@ h5 {
 
 .Icon {
     width: auto;
-    height: 100px;
+    max-height: 100px;
 }
 
 .Icon:hover {
@@ -26,8 +26,51 @@ h5 {
     animation-direction: alternate;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+
+
+@media(min-width:800px) {
+    .row {
+        display: flex;
+        flex-flow: row wrap;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+
+    .row>.one {
+      max-width: 300px;
+      order: 1;
+      padding-right: 50px;
+    }
+  
+    .row>.two {
+        max-width: 300px;
+        order: 2;
+        padding-right: 50px;
+    }
+    
+    .row>.three {
+        max-width: 300px;
+        order: 3;
+        padding-right: 50px;
+    }
+
+    .row>.four {
+        max-width: 300px;
+        order: 4;
+        padding-right: 50px;
+      }
+    
+      .row>.five {
+          flex: 1 1 0%;
+          max-width: 300px;
+          order: 5;
+          padding-right: 50px;
+      }
+      
+      .row>.six {
+          flex: 1 1 0%;
+          max-width: 300px;
+          order: 6;
+          padding-right: 50px;
+      }
+  }

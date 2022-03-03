@@ -10,7 +10,7 @@ function Introduction() {
         Full-stack Developer
       </h1>
       <h1 className="name">
-        Júlia
+        Júlia 
         <br />
         Martins
       </h1>

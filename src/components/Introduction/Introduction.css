@@ -14,7 +14,7 @@
 
 .name {
     max-width: 1000px;
-    font-size: 50px;
+    font-size: 42px;
     text-align: left;
     margin-top: 30px;
     animation: type 1.5s steps(10);
@@ -24,7 +24,7 @@
 .sub{
     text-align: left;
     margin-top: 35px;
-    font-size: 28px;
+    font-size: 26px;
     font-weight: lighter;
     align-items: center;
 }

@@ -1,5 +1,5 @@
 .ContactImages img{
-    height: 32px;
+    max-height: 32px;
     width: auto;
     padding: 10px;
 }

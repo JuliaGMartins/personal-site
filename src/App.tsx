@@ -19,8 +19,10 @@ function App() {
               <Contact/>
             </Router>
           </div>
-          <div className="vl"></div>
           <div className="two">
+          <div className="vl"></div>
+          </div>
+          <div className="three">
             <Router>
               <AboutMe/>
               <hr/>
