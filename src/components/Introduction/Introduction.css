@@ -12,60 +12,94 @@
     }
 }
 
+@keyframes changeImage {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .name {
     max-width: 1000px;
-    font-size: 42px;
+    font-size: 55px;
     text-align: left;
-    margin-top: 30px;
     animation: type 1.5s steps(10);
     font-weight: bold;
+    margin-bottom: -5px;
 }
 
 .sub{
     text-align: left;
-    margin-top: 35px;
-    font-size: 26px;
+    font-size: 21px;
     font-weight: lighter;
-    align-items: center;
 }
 
-.circle-one {
-    height: 200px;
-    width: 200px;
-    background-color: #e53170;
+.circle {
+    height: 175px;
+    width: 175px;
+    background-color: #f25f4c;
     border-radius: 50%;
     display: inline-block;
-    margin-right: -225px;
     opacity: 0;
     animation: slide;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    animation-delay: 0;
+    animation-delay: 0.6s;
+    background-image: url('../../images/avatar.jpg');
+    background-size: 175px;
+    margin-bottom: -15.85px;
+}
+
+/* .circle:hover{
+    animation: changeImage;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-image: url('../../images/Hange.webp');
+} */
+
+.circle-one {
+    height: 175px;
+    width: 175px;
+    background-color: #e53170;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -200px;
+    opacity: 0;
+    animation: slide;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    margin-bottom: -15.85px;
 }
 
 .circle-two {
-    height: 200px;
-    width: 200px;
+    height: 175px;
+    width: 175px;
     background-color: #f25f4c;
     border-radius: 50%;
     display: inline-block;
-    margin-right: -225px;
+    margin-right: -200px;
     opacity: 0;
     animation: slide;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-delay: 0.3s;
+    margin-bottom: -15.85px;
 }
 
-.avatar {
+/* .avatar {
     border-radius: 50%;
-    width: 200px;
+    width: 175px;
     opacity: 0;
     animation: slide;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-delay: 0.7s;
-  }
+    margin-bottom: -15.85px;
+  } */
 
 .circles {
     text-align: left;

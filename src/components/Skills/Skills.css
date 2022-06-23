@@ -18,12 +18,13 @@ h5 {
 }
 
 .Icon:hover {
-    animation: highlight;
+    filter: drop-shadow(0px 0px 2px rgb(223, 140, 31));
+    /* animation: highlight;
     animation-duration: 1.5s;
     animation-fill-mode: forwards;
     animation-iteration-count: infinite;
     animation-timing-function: ease;
-    animation-direction: alternate;
+    animation-direction: alternate; */
 }
 
 
@@ -60,17 +61,17 @@ h5 {
         padding-right: 50px;
       }
     
-      .row>.five {
-          flex: 1 1 0%;
-          max-width: 300px;
-          order: 5;
-          padding-right: 50px;
-      }
+    .row>.five {
+        flex: 1 1 0%;
+        max-width: 300px;
+        order: 5;
+        padding-right: 50px;
+    }
       
-      .row>.six {
-          flex: 1 1 0%;
-          max-width: 300px;
-          order: 6;
-          padding-right: 50px;
-      }
+    .row>.six {
+        flex: 1 1 0%;
+        max-width: 300px;
+        order: 6;
+        padding-right: 50px;
+    }
   }

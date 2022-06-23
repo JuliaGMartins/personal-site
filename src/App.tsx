@@ -14,7 +14,7 @@ function App() {
           <div className="one">
             <Router>
               <Introduction/>
-              <hr/>
+              <hr className="hrLeft"/>
               <Contact/>
             </Router>
           </div>
@@ -24,7 +24,7 @@ function App() {
           <div className="three">
             <Router>
               <AboutMe/>
-              <hr/>
+              <hr className="hrRight"/>
               <Skills/>
             </Router>
           </div>

@@ -18,6 +18,52 @@ body {
   color: #61dafb;
 }
 
+@keyframes translateAxisXtoRight {
+  from {
+    opacity: 0;
+    transform: translateX(-200px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateAxisXtoLeft {
+  from {
+    opacity: 0;
+    transform: translateX(200px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes translateAxisY {
+  from {
+    opacity: 0;
+    transform: translateY(-200px)
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    display: none;
+  }
+
+  to {
+    display:contents;
+  }
+}
+
 @media(min-width:1200px) {
   .App-row {
     display: flex;
@@ -47,8 +93,8 @@ body {
   }
 }
 
-/*display:none - causes vl to disappear when screen resolution < 1500px*/
-@media(max-width:1465px) {
+/*display:none - causes vl to disappear when screen resolution < 1380px*/
+@media(max-width:1380px) {
   .App-row>.two {
     display: none;
   }
@@ -56,14 +102,28 @@ body {
 /*causes the boxes to generate margin when in small resolution*/
   .App-row>.one, .App-row>.three {
     margin: 25px;
+    animation: translateAxisY;
+    animation-duration: 3s;
   }
 }
 
 .vl {
   border-left: 1px solid #ff8906;
   height: 700px;
+  animation: translateAxisY;
+  animation-duration: 3s;
 }
 
 hr {
   border: 1px solid #f25f4c;
+}
+
+.hrLeft{
+  animation: translateAxisXtoRight;
+  animation-duration: 3s;
+}
+
+.hrRight{
+  animation: translateAxisXtoLeft;
+  animation-duration: 3s;
 }
